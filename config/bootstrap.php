@@ -205,10 +205,10 @@ Type::build('timestamp')
 $this->addPlugin('AdminLTE', ['bootstrap' => true, 'routes' => true]);
 //Plugin::load('AdminLTE', ['bootstrap' => true, 'routes' => true]);
 Configure::write('Theme', [
-    'title' => 'AdminLTE',
+    'title' => 'Unifica',
     'logo' => [
         'mini' => '<b>A</b>LT',
-        'large' => '<b>Admin</b>LTE'
+        'large' => '<b>Unifica</b>'
     ],
     'login' => [
         'show_remember' => true,
