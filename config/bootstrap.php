@@ -202,12 +202,12 @@ Type::build('timestamp')
 //Inflector::rules('uninflected', ['dontinflectme']);
 //Inflector::rules('transliteration', ['/å/' => 'aa']);
 
-$this->addPlugin('AdminLTE', ['bootstrap' => true, 'routes' => true]);
+$this->addPlugin('AdminLTE', ['bootstrap' => true, 'routes' => false]);
 //Plugin::load('AdminLTE', ['bootstrap' => true, 'routes' => true]);
 Configure::write('Theme', [
     'title' => 'Unifica',
     'logo' => [
-        'mini' => '<b>A</b>LT',
+        'mini' => '<b>U</b>',
         'large' => '<b>Unifica</b>'
     ],
     'login' => [
